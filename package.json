@@ -1,0 +1,24 @@
+{
+  "name": "secret-society",
+  "version": "1.0.0",
+  "description": "Discord Bot for managing clans",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hugo Sanctorum",
+  "license": "MIT",
+  "imports": {
+    "#dep": {
+      "node": "sqlite3",
+      "default": "./node_modules/sqlite/index.mjs"
+    }
+  },
+  "dependencies": {
+    "aa-sqlite": "^1.0.29",
+    "db": "^3.1.0",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "sqlite3": "^5.0.0"
+  }
+}
